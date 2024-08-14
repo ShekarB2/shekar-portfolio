@@ -10,7 +10,6 @@ function Header() {
         <h1 className='text-white text-4xl font-semibold sm:text-2xl'>B</h1>
       </div>
 
-      {/* Center: Menu Options */}
       <div className='flex-1 flex justify-center sm:hidden'>
         <nav className="flex gap-6 sm:gap-4">
           <Link to="#home" className="text-white hover:text-tertiary">Home</Link>
