@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-      "*.js": "javascriptreact"
-    },
-    "emmet.includeLanguages": {
-      "javascriptreact": "javascriptreact"
-    }
-  }
-  

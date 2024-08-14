@@ -27,7 +27,7 @@ function Contact() {
                     className="flex flex-col gap-2 w-1/2 sm:w-full bg-tertiary bg-opacity-85 text-black font-semibold p-4 rounded-lg cursor-pointer shadow-lg transform transition-transform duration-300 hover:scale-105"
                     onClick={toggleContact}
                 >
-                    <p className="text-white">// Click to inspect contact</p>
+                    <p className="text-white">Click to inspect contact</p>
                     <p>ContactCard contact = new ContactCard();</p>
                     <p>contact.inspect();</p>
                 </div>

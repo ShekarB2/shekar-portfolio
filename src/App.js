@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import { useState, useEffect } from "react";
 import Loader from "./components/Loader";
@@ -12,14 +12,14 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       {showLoading ? <Loader /> : null}
       {!showLoading && (
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
       )}
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
